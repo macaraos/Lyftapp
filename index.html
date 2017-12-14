@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv=“X-UA-Compatible” content=“IE=edge”>
+	<title>Lyft</title>
+	<link rel="shortcut icon" type=“image/x-icon” href="favicon.ico">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><!-- Enlace Bootstrap -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body onload="splash(3000)" onload="myFunction()" style="margin:0;">
+	<div id="splashscreen">
+		<img class="logo_blanco" src="assets/img/logoblanco.png" alt="">
+			<div id="loader"></div>
+	</div>
+
+	<div class="modal fade" id="singup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h3 class="modal-title" id="myModalLabel"><strong><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i> Sing Up</strong></h3>
+					<p><h5>Join now for free ride credit</h5></p>
+				</div>
+				<div class="modal-body">
+					<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#"><img class="banderas" src="assets/img/bandera-de-mexico.png" alt=""></a></li>
+    <li><a href="#"><img class="banderas" src="assets/img/banderita-venezuela-.jpg" alt=""></a></li>
+    <li><a href="#"><img class="banderas" src="assets/img/bandera-canada.png" alt=""></a></li>
+    <li><a href="#"><img class="banderas" src="assets/img/us.png" alt=""></a></li>
+  </ul><input id="cel" type="text">
+  <p><h5>Weĺl send a number to verify your phone</h5></p>
+</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">NEXT</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div class="row">
+	<div class="col-xs-12">
+		<img class="logo_blanco2" src="assets/img/logoblanco.png" alt="">
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-xs-6">
+		<button class="log">LOG IN</button>
+		</div>
+
+		<div class="col-xs-6">
+			<button class="sing" data-toggle="modal" data-target="#singup">SING UP</button>
+		</div>
+	</div>
+</div>
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/53a473cc15.js"></script>
+	<script src="assets/js/app.js"></script>
+</body>
+</html>
